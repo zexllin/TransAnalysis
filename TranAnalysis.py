@@ -280,7 +280,7 @@ class RNAanalysis:
             if os.path.exists('%s/StepHTseq/%s.txt'%(self.outdir,txtPrefix)):
                 continue
 
-            commands = ("/home/appuser/anaconda2/bin/htseq-count -f bam -r name"
+            commands = ("htseq-count -f bam -r name"
                 " -s no -a 10 -t exon -i gene_id -m union %s /media/adata/bioproject"
                 "/refdata/genome/hg38/gencode.v28.annotation.gtf > %s/StepHTseq"
                 "/%s.txt"%(infile,self.outdir,txtPrefix))
