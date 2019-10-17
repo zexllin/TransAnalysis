@@ -9,5 +9,5 @@
 
 $ sudo ln -s /home/zhaoxl/TransAnalysis.py  /home/zhaoxl/.local/bin/TransAnalysis
 
-TransAnalysis -i <input path> -o <output path>
+TransAnalysis -i \<input path\> -o \<output path\>
 
