@@ -1,8 +1,13 @@
 # TransAnalysis
+TransAnalysis 用于RNAseq下机数据质控，去接头，比对及表达定量，结果为miRNA或者mRNA表达丰度矩阵。
+
+
 配置需要的环境
 
 1 安装 htseq-count \
-2 安装star 比对软件 
+2 安装star 比对软件 \
+3 去接头软件 \
+4 下机数据质控软件
 
 使用方法
 
